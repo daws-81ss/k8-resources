@@ -1,8 +1,7 @@
 apiVersion: v1
-kind: Pod
+kind: ConfigMap 
 metadata:
-  name: config-map
+  name: nginx-config
 data:
   course: devops
   duration: "120hrs"
-  
